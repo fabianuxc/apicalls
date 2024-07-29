@@ -9,6 +9,7 @@ function Artworks({ artworks }) {
                 ))
             }
         </ul>
+        
     )
 }
 
