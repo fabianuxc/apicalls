@@ -1,0 +1,120 @@
+{
+    "pagination": {
+      "total": 125990,
+      "limit": 12,
+      "offset": 0,
+      "total_pages": 10500,
+      "current_page": 1,
+      "next_url": "https://api.artic.edu/api/v1/artworks?page=2&fields=id%2Ctitle%2Cartist_display%2Cdate_display%2Cdescription%2Cimage_id"
+    },
+    "data": [
+      {
+        "id": 13527,
+        "title": "The Bath",
+        "date_display": "1890–91",
+        "artist_display": "Mary Cassatt (American, 1844-1926)\nprinted with Leroy (French, active 1876-1900)",
+        "description": null,
+        "image_id": "907a7782-97d6-9cde-a8cb-1b9bea785ea1"
+      },
+      {
+        "id": 14598,
+        "title": "The Beach at Sainte-Adresse",
+        "date_display": "1867",
+        "artist_display": "Claude Monet (French, 1840–1926)",
+        "description": "\u003Cp\u003EIn the summer of 1867 Claude Monet stayed with his aunt in Sainte-Adresse, an affluent suburb of the port city of Le Havre in Normandy, where the artist grew up. Monet began the painting outdoors on an overcast day but likely revised the composition in his studio in view of other related canvases, especially the Metropolitan Museum of Art’s \u003Cem\u003ERegatta at Sainte-Adresse\u003C/em\u003E (51.30.4). \u003Ca href=\"https://www.artic.edu/exhibitions/9036/monet-and-chicago\"\u003ETechnical analysis\u003C/a\u003E revealed that what started as a scene of yachts and tourists at the beach ultimately became a view of sailboats and local fishermen. Monet first exhibited this painting at the Impressionist exhibition of 1876, the second of eight independent exhibitions he mounted with a group of like-minded avant-garde artists who sought to present their work outside of France’s traditional, state-sponsored Salon system.\u003C/p\u003E\n",
+        "image_id": "95be2572-b53d-8e7b-abc9-10eb48d4fa5d"
+      },
+      {
+        "id": 25312,
+        "title": "Vessel Depicting K'awiil (God K) and Itzamna Exchanging Gifts",
+        "date_display": "700–800 CE",
+        "artist_display": "Ceramist unknown (Late Classic Maya)\nGuatemala",
+        "description": null,
+        "image_id": "3e5e1700-1cef-8ac8-06a9-6dc5cc723e3a"
+      },
+      {
+        "id": 23700,
+        "title": "The Praying Jew",
+        "date_display": "1923 (one of two versions after a 1914 composition)",
+        "artist_display": "Marc Chagall\nBorn Vitebsk (formerly Russian Empire, now Belarus), 1887; died Saint-Paul, France, 1985",
+        "description": "\u003Cp\u003EMarc Chagall had a prolific career that spanned more than eight decades of the twentieth century. While his work often exhibits influences of the contemporary movements he encountered in France and Germany, his subjects and decorative lyricism reveal his love of Russian folk art and his roots in Hasidic Judaism.\u003C/p\u003E\n\u003Cp\u003EIn his 1931 autobiography, \u003Cem\u003EMy Life\u003C/em\u003E, Chagall related how, while visiting Vitebsk (present-day Belarus), the city in which he was born, he realized that the traditions in which he had grown up were fast disappearing and that he needed to document them. He paid a man to pose in his father’s prayer clothes and then painted him, limiting his palette primarily to black and white, as befit the solemnity of the subject. This portrait is noteworthy for the simplicity of its execution; nonetheless, its striking patterns, abstract background, and the slightly distorted features of the model demonstrate Chagall’s absorption of modern trends, especially Cubism.\u003C/p\u003E\n\u003Cp\u003EChagall often painted variants or replicas of works he particularly loved. The Art Institute’s \u003Cem\u003EPraying Jew\u003C/em\u003E is one of three versions of this composition. He painted the original canvas in 1914, and when he traveled back to Paris in 1923, he took this painting with him. He learned upon his return that much of the work he had left in France had been lost during World War I. This prompted him to make two versions of \u003Cem\u003EThe Praying Jew\u003C/em\u003E before it left his studio: they are the present work and another in the Ca’ Pesaro, Venice; the original is now in the Kunstmuseum, Basel. The later compositions differ from the original only in small details.\u003C/p\u003E\n",
+        "image_id": "0b5057af-97c6-5eb8-7328-fa9cf46d8751"
+      },
+      {
+        "id": 26650,
+        "title": "On a Balcony",
+        "date_display": "1878–79",
+        "artist_display": "Mary Cassatt (American, 1844–1926)",
+        "description": "\u003Cp\u003EDuring her early Impressionist period, Mary Cassatt frequently captured the activities of middle- and upper-class women in society—at the theater or taking tea, for example. \u003Cem\u003EOn a Balcony\u003C/em\u003E, which was shown in the 1880 Impressionist exhibition, appears to depict a woman in a public setting. However, the blue rail of the balcony, visible near the top of the painting, defines the enclosed space of a private garden, and the woman’s morning dress further indicates the intimacy of her location. Cassatt signaled the modernity of her subject through the woman’s choice of reading material: she peruses a newspaper rather than a novel, demonstrating that even at home, Cassatt’s subjects are connected to the contemporary world.\u003C/p\u003E\n",
+        "image_id": "f0150d21-33ab-f6ea-0d4d-32d459f091fe"
+      },
+      {
+        "id": 27404,
+        "title": "Waiting",
+        "date_display": "1879–80",
+        "artist_display": "Mary Cassatt\nAmerican, 1844-1926",
+        "description": null,
+        "image_id": "f30ac705-0704-a9ce-2dd4-d1aaad25f8f6"
+      },
+      {
+        "id": 26693,
+        "title": "Under the Lamp",
+        "date_display": "c. 1882",
+        "artist_display": "Mary Cassatt\nAmerican, 1844-1926",
+        "description": null,
+        "image_id": "21cfd347-e6aa-6a11-f1e7-bf84a4e87a3d"
+      },
+      {
+        "id": 29285,
+        "title": "Untitled",
+        "date_display": "1935/68",
+        "artist_display": "Béla Kalman\nAmerican, born Hungary, 1921–2011",
+        "description": null,
+        "image_id": "d243a3e1-672f-747d-2138-030123fefe50"
+      },
+      {
+        "id": 34461,
+        "title": "Polynesian Woman with Children",
+        "date_display": "1901",
+        "artist_display": "Paul Gauguin (French, 1848–1903)",
+        "description": "\u003Cp\u003EThe three figures in this work have never been identified. Their familial pose and other details, such as the woman’s gold ring and the red mark on the girl’s hand, invite speculation as to their relationship to each other and to the artist. Technical analysis has revealed that Paul Gauguin reworked the position of the woman’s hands to align diagonally with those of the young girl standing behind her. Together, they form an upward axis reinforced by the cat, also a later addition.\u003C/p\u003E\n",
+        "image_id": "cc5cdb81-14cf-27e9-eda8-94c08244ebaa"
+      },
+      {
+        "id": 32349,
+        "title": "City",
+        "date_display": "1968",
+        "artist_display": "Ed Ruscha\nAmerican, born 1937",
+        "description": "\u003Cp\u003EFrom his earliest experiences as a sign painter, Ed Ruscha retained an interest in the visual and conceptual tensions between text and image. By the late 1960s, the artist began using pointed, single words— chosen as much for their evocative power as for their phonetic qualities—as visual subjects in a variety of media. Between 1966 and 1969, Ruscha made a series of “liquid” or “wet” word paintings, in which the linguistic effect is made more palpable by the trompe l’oeil renderings of the words, which suggest that they have been created from water, oil, syrup, or another fluid.\u003C/p\u003E\n",
+        "image_id": "a8fe598b-a83b-1cd4-e4fb-ffc63599f249"
+      },
+      {
+        "id": 44272,
+        "title": "Jean-Baptiste Belley",
+        "date_display": "c. 1797",
+        "artist_display": "Attributed to Anne-Louis Girodet de Roucy-Trioson\nFrench, 1767-1824",
+        "description": "\u003Cp\u003ESold into slavery as a boy, Jean-Baptiste Belley (1746–1805) bought his freedom in 1764. Belley fought in the American War of Independence and served as a captain in the French army during the Haitian Revolution (1791–1804) fighting to abolish slavery on the island of Saint-Domingue (now Hispaniola). In 1793 he was elected to the National Convention in Paris, becoming its first black deputy.\u003Cbr\u003EBelley wears the uniform of a representative to the Convention. As we know from the painting for which this is a highly finished study or copy drawing, his hat feathers and sash are the colors of the French Republic: blue, white, and red. He leans against a marble plinth supporting a bust of the French philosopher and enemy of slavery Guillaume Raynal (1713–1796).\u003C/p\u003E\n",
+        "image_id": "2ee8b04a-03c3-0440-3d41-25a00401de93"
+      },
+      {
+        "id": 60513,
+        "title": "Self-Portrait",
+        "date_display": "1891/92",
+        "artist_display": "Käthe Kollwitz\nGerman, 1867-1945",
+        "description": null,
+        "image_id": "a99d1e6e-8c3d-be27-4a00-4fa868f54673"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.10"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "http://www.artic.edu"
+    }
+  }
