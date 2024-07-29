@@ -20,7 +20,7 @@ export function Artworks({ artworks }) {
     return (
         <ul className="artworks">
             {
-                artworks.map(a => (
+                artworks?.map(a => (
                     <Artwork artwork={a}></Artwork>
                 ))
             }
