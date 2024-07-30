@@ -3,7 +3,6 @@ import Artwork from "./Artwork"
 function Artworks({ artworks }) {
     return (
         <ul className="artworks">
-            {  console.log("dentro de Artworks.jsx:", artworks) }
             {
                
                 artworks?.map((a, index) => (

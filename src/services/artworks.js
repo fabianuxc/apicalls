@@ -11,10 +11,8 @@ export function getArtworks_fetch() {
 
 export const getArtworks = async ({ query }) => {
 
-    console.log(query)
     if (query === '') {
         try {
-            console.log("aqui")
             const response = await fetch(API_URL)
             const data = await response.json()
             const { data: artworks } = data
@@ -30,7 +28,7 @@ export const getArtworks = async ({ query }) => {
             const data = await response.json()
             const { data: urls } = data
             let artworks = []
-            for (const { api_link: url} of urls) {
+            for (const { api_link: url } of urls) {
                 try {
                     const response = await fetch(`${url}?fields=id,title,artist_display,date_display,description,image_id`)
                     const data = await response.json()
@@ -47,7 +45,6 @@ export const getArtworks = async ({ query }) => {
         }
     }
 
-    console.log("fuera del if")
     return null
-    
+
 }
