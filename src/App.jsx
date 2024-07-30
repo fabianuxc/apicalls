@@ -2,12 +2,15 @@ import { useEffect, useState, useRef } from 'react'
 import './App.css'
 import Artworks from './components/Artworks'
 import { getArtworks } from './services/artworks.js'
+import Information from './components/Information.jsx'
 
 function App() {
 
+  const [currentPath, setCurrentPath] = useState(window.location.pathname)
   const [artworks, setArtworks] = useState([])
   const [query, setQuery] = useState('')
   const [loading, setLoading] = useState(false)
+  
 
   useEffect(() => {
     getArtworks({ query })
@@ -28,6 +31,7 @@ function App() {
   }
 
   return (
+    
     <div className='page'>
       <header>
         <h1 style={{ textAlign: 'center' }}>Arte</h1>
@@ -42,9 +46,11 @@ function App() {
       </header>
       <main>
 
-        {loading ?
+        { currentPath === '/' && (loading ?
           <span className="loader"></span> :
-          <Artworks artworks={artworks}></Artworks>
+          <Artworks artworks={artworks}></Artworks>) }
+        
+        { currentPath !== '/' && <Information artwork={artworks[0]}></Information>
 
         }
 

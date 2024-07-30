@@ -1,6 +1,7 @@
 import Artwork from "./Artwork"
 
 function Artworks({ artworks }) {
+    
     return (
         <ul className="artworks">
             {
