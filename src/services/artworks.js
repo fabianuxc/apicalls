@@ -51,8 +51,8 @@ export const getArtworks = async ({ query }) => {
             console.error('Error fetching artwork' + error)
         }
     } else {
-       const results = await search(query)
-       return results
+        const results = await search(query)
+        return results
     }
 
     return null

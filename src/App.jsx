@@ -39,26 +39,26 @@ function App() {
   }
 
   return (
-    
+
     <div className='page'>
       <header>
         <a href='/'><h1 style={{ textAlign: 'center' }}>Arte</h1></a>
-        { currentPath === '/' && (<form onSubmit={handleSubmit}>
+        {currentPath === '/' && (<form onSubmit={handleSubmit}>
           <input value={query}
             placeholder='Starry Night, The Bath, The Praying Jew...'
             onChange={event => setQuery(event.target.value)}>
 
           </input>
           <button type='submit'>Buscar</button>
-        </form>) }
+        </form>)}
       </header>
       <main>
 
-        { currentPath === '/' && (loading ?
+        {currentPath === '/' && (loading ?
           <span className="loader"></span> :
-          <Artworks artworks={artworks}></Artworks>) }
-        
-        { currentPath !== '/' && <Information artwork={artworks[0]}></Information>
+          <Artworks artworks={artworks}></Artworks>)}
+
+        {currentPath !== '/' && <Information artwork={artworks[0]}></Information>
 
         }
 
