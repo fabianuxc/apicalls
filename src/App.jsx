@@ -4,19 +4,27 @@ import Artworks from './components/Artworks'
 import { getArtworks } from './services/artworks.js'
 import Information from './components/Information.jsx'
 
+const NAVIGATION_EVENT = 'pushstate'
+
+function Navigate(href) {
+  window.history.pushState({}, '', href)
+  const navigationEvent = new Event(NAVIGATION_EVENT)
+  window.dispatchEvent(navigationEvent)
+}
+
 function App() {
 
   const [currentPath, setCurrentPath] = useState(window.location.pathname)
   const [artworks, setArtworks] = useState([])
   const [query, setQuery] = useState('')
   const [loading, setLoading] = useState(false)
-  
 
   useEffect(() => {
     getArtworks({ query })
       .then(res => setArtworks(res))
       .catch(error => console.error("Error ", error))
   }, [])
+
 
   const handleSubmit = (event) => {
     setArtworks([])
@@ -34,15 +42,15 @@ function App() {
     
     <div className='page'>
       <header>
-        <h1 style={{ textAlign: 'center' }}>Arte</h1>
-        <form onSubmit={handleSubmit}>
+        <a href='/'><h1 style={{ textAlign: 'center' }}>Arte</h1></a>
+        { currentPath === '/' && (<form onSubmit={handleSubmit}>
           <input value={query}
             placeholder='Starry Night, The Bath, The Praying Jew...'
             onChange={event => setQuery(event.target.value)}>
 
           </input>
           <button type='submit'>Buscar</button>
-        </form>
+        </form>) }
       </header>
       <main>
 
